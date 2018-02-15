@@ -1,0 +1,8 @@
+ Dim txt As String
+        Console.Write("Enter string: ")
+        txt = Console.ReadLine
+        If Len(txt) < 2 Then
+            Console.WriteLine("")
+        Else : Console.WriteLine(Left(txt, 2) & Right(txt, 2))
+        End If
+        Console.ReadKey()

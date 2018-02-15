@@ -1,0 +1,7 @@
+ s1 = Console.ReadLine()
+         Console.Write("Enter second string: ")
+         s2 = Console.ReadLine()
+        newS = s2(0) & Mid(s1, 2) & " " & s1(0) & Mid(s2, 2)
+        newS = Mid(s2, 1, 2) & Mid(s1, 3) & " " & Mid(s1, 1, 2) & Mid(s2, 3)
+         Console.WriteLine(newS)
+         Console.ReadKey()

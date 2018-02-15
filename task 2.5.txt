@@ -1,0 +1,8 @@
+Dim b As Integer
+         Console.Write("Enter string: ")
+         s = Console.ReadLine()
+        For i = 1 To Len(s) - 3
+        For i = 1 To Len(s) - 2
+             If Mid(s, i, 3) = "not" Then
+                 a = i
+             ElseIf Mid(s, i, 3) = "bad" Then
