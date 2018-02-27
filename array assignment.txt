@@ -1,0 +1,18 @@
+Module Module1
+
+    Sub Main()
+        Dim array(26) As String
+        Dim i As Integer
+        Dim c As Char
+        For i = 1 To 26
+            c = Convert.ToChar(i + 64)
+            array(i) = AscW(c)
+            Console.WriteLine(c)
+            Console.ReadKey()
+        Next
+
+
+
+    End Sub
+
+End Module
